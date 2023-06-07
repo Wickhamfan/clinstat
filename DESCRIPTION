@@ -1,0 +1,26 @@
+Package: clinstat
+Title: Analysis of Clinical Trial Data
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: None.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    dplyr (>= 1.1.0),
+    flextable,
+    janitor (>= 2.2.0),
+    officer,
+    tidyverse (>= 2.0.0),
+    xtable
+URL: https://github.com/Wickhamfan/clinstat
+BugReports: https://github.com/Wickhamfan/clinstat/issues
+Imports: 
+    haven,
+    readxl
